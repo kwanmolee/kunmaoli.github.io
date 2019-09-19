@@ -92,20 +92,33 @@
             </div>
             <div class="modal-body">
               <form action="https://formspree.io/kuli@eng.ucsd.edu" method="POST">
-                <div class="form-group">
-                  <label for="recipient-name" class="form-control-label">Please enter your e-mail</label>
-                  <input type="text" class="form-control" id="recipient-name" placeholder="your-name@example.com" required="required">
-                  <p>
-                    <br>
-                  </p>
-                  <label for="recipient-message" class="form-control-label">Please leave your message</label>
-                  <input type="text" class="form-control" id="recipient-name" placeholder="Please leave your message here" required="required">
-                </div>
-            </div>
-              <div class="col">
-                  <button class="btn btn-primary" type="submit">Send</button>
-              </div>
-            </form>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
+                            <input class="form-control" type="text" name="name" placeholder="Name" required="required"/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                            <input class="form-control" type="email" name="_replyto" placeholder="E-mail" required="required"/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="form-group">
+                            <textarea class="form-control" name="message" placeholder="Please leave your message here" required="required"></textarea>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <button class="btn btn-primary" type="submit">Send</button>
+                        </div>
+                      </div>
+                    </form>
           </div>
         </div>
     </div>
@@ -526,7 +539,6 @@
         <div class="row">
           <div class="col-md-9">
             <div class="card mb-0" data-aos="zoom-in">
-              <div class="h4 text-center title" style="color: black; font-weight: 500">Contact Me</div>
               <div class="row">
                 <div class="col-md-6">
                   <div class="card-body">
@@ -571,11 +583,19 @@
                 <div class="col-md-6">
                   <div class="card-body" style="color: black">
                     <p class="mb-0"><strong>Address </strong></p>
-                    <p class="pb-2">8550 Costa Verde Blvd, San Diego, California</p>
-                    <p class="mb-0"><strong>Phone</strong></p>
-                    <p class="pb-2">(+1)858-232-7369</p>
+                    <p class="pb-2">8550 Costa Verde Blvd<br>San Diego, California</p>
                     <p class="mb-0"><strong>Email</strong></p>
                     <p>kuli@eng.ucsd.edu</p>
+                    <p class="mb-0"><strong>Phone</strong></p>
+                    <p class="pb-2">(+1)858-232-7369</p>
+                    <p class="mb-0"><strong>Other Contact</strong></p>
+                    <div class="row">
+                    <pre class="tab">           </pre>                
+                    <a class="nav-link nav-social" href="https://www.linkedin.com/in/kunmao-li-04843b173/" style="color:rgb(0,125,181); text-align: "><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a class="nav-link nav-social" href="https://github.com/kwanmolee" style="color:black"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    <a class="nav-link nav-social" href="img/wechat.jpg" style="color:rgb(9, 184, 62)"><i class="fa fa-wechat" aria-hidden="true"></i></a>
+                    <a class="nav-link nav-social" href="#"><i class="fa fa-google-plus" aria-hidden="true" style="color: rgb(221, 75, 57)"></i></a> 
+                  </div>
                   </div>
                 </div>
               </div>
