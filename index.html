@@ -85,27 +85,27 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <div class="modal-title" id="subscribeModalLabel"><b>Contact Me:</b></div>
+              <div class="modal-title" id="subscribeModalLabel" style="font-weight: 400"><b>I will reach out to you soon once I receive your notification</b></div>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <p>
-              <br>
-              <br>
-              <br>
-            </p>
             <div class="modal-body">
-              <form>
+              <form action="https://formspree.io/kuli@eng.ucsd.edu" method="POST">
                 <div class="form-group">
-                  <label for="recipient-name" class="form-control-label">Enter your e-mail and I will reach out to you soon</label>
+                  <label for="recipient-name" class="form-control-label">Please enter your e-mail</label>
                   <input type="text" class="form-control" id="recipient-name" placeholder="your-name@example.com" required="required">
+                  <p>
+                    <br>
+                  </p>
+                  <label for="recipient-message" class="form-control-label">Please leave your message</label>
+                  <input type="text" class="form-control" id="recipient-name" placeholder="Please leave your message here" required="required">
                 </div>
-              </form>
             </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-default">Confirm</button>
-            </div>
+              <div class="col">
+                  <button class="btn btn-primary" type="submit">Send</button>
+              </div>
+            </form>
           </div>
         </div>
     </div>
@@ -499,6 +499,28 @@
 
 <div class="section" id="contact">
   <div class="cc-contact-information">
+    <p class="lead">
+    <h9 class="cover-heading"><b>📧 CONTACT ME</b></h9>
+      <STYLE type="text/css">
+          h9 {
+            display: inline;
+            position: relative;
+            letter-spacing: -3px;
+            color: powderblue; 
+          }
+          
+          h9:after {
+            content: "CONTACT ME";
+            display: inline;
+            position: absolute; 
+            left: 96px; 
+            top: -6px;
+            font-weight: 550;
+            color: cadetblue; 
+            mix-blend-mode: multiply;  
+          }
+      </STYLE>
+    </p>
     <div class="container">
       <div class="cc-contact">
         <div class="row">
