@@ -1,1 +1,1 @@
-### This is for the [personal resumé](https://kwanmolee.github.io/kunmaoli.github.io/)
+### This is for the [personal website](https://kwanmolee.github.io/kunmaoli.github.io/)
