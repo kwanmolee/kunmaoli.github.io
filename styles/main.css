@@ -61,6 +61,11 @@ body {
   margin-left: auto;
 }
 
+.cover-container .aos-animate {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
 /* Padding for spacing */
 .inner {
   padding: 30px;
